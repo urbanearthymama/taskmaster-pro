@@ -89,9 +89,7 @@ $(".list-group").on('click', "p", function() {
 
 $(".list-group").on("blur", "textarea", function(){
 // get the text area's current value/text
-var text = $(this)
-  .val()
-  .trim();
+var text = $(this).val();
 
 // get the parent ul's id attribute
 var status = $(this)
